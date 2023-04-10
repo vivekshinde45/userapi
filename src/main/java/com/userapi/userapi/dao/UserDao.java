@@ -16,8 +16,7 @@ public class UserDao {
 
     public List<User> getAllUsers(int n) {
         try {
-            // return (List) _userRepository.findAll();
-            return null;
+            return _userRepository.findAll();
         } catch (Exception ex) {
             return null;
         }
